@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     height: 100vh;
-    background-color: #000; /* Fond noir pour la page */
+    background-color: #000;
 }
 
 .container {
@@ -16,12 +16,11 @@ body {
     width: 100%;
 }
 
-/* Côté droit avec zones de saisie et iframes */
 .right-column {
     width: 50%;
     display: flex;
     flex-direction: column;
-    position: relative; /* Pour le positionnement de .top-box */
+    position: relative; 
 }
 
 .right-column .top-box {
@@ -29,18 +28,18 @@ body {
     top: 0;
     left: 0;
     padding: 10px;
-    background-color: #333; /* Fond gris pour le haut de la colonne droite */
+    background-color: #333; 
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Aligne les éléments en haut à gauche */
+    align-items: flex-start; 
 }
 
 .right-column .top-box input, 
 .right-column .top-box button {
     width: 100%;
-    margin-bottom: 4px; /* Séparation entre les éléments */
-    padding: 5px;  /* Réduit la taille du padding */
-    font-size: 10px; /* Réduit la taille du texte */
+    margin-bottom: 4px; 
+    padding: 5px;  
+    font-size: 10px; 
 }
 
 .right-column .top-box input {
@@ -57,7 +56,7 @@ body {
 }
 
 .right-column .iframe-container {
-    margin-top: 50px; /* Assurez-vous que les iframes ne sont pas couvertes par la zone de saisie */
+    margin-top: 50px;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -65,16 +64,15 @@ body {
 
 .right-column .iframe-container iframe {
     width: 100%;
-    height: 50%; /* Ajustez la hauteur des iframes selon le besoin */
+    height: 50%; 
     border: none;
 }
 
-/* Côté gauche avec une zone de saisie et une iframe */
 .left-column {
     width: 50%;
     display: flex;
     flex-direction: column;
-    position: relative; /* Pour le positionnement de .top-box */
+    position: relative; 
 }
 
 .left-column .top-box {
@@ -82,18 +80,18 @@ body {
     top: 0;
     left: 0;
     padding: 10px;
-    background-color: #333; /* Fond gris pour le haut de la colonne gauche */
+    background-color: #333; 
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Aligne les éléments en haut à gauche */
+    align-items: flex-start; 
 }
 
 .left-column .top-box input, 
 .left-column .top-box button {
     width: 100%;
-    margin-bottom: 4px; /* Séparation entre les éléments */
-    padding: 5px;  /* Réduit la taille du padding */
-    font-size: 10px; /* Réduit la taille du texte */
+    margin-bottom: 4px; 
+    padding: 5px;
+    font-size: 10px;
 }
 
 .left-column .top-box input {
@@ -110,7 +108,7 @@ body {
 }
 
 .left-column .iframe-container {
-    margin-top: 50px; /* Assurez-vous que les iframes ne sont pas couvertes par la zone de saisie */
+    margin-top: 50px;
     flex: 1;
     display: flex;
     flex-direction: column;
